@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "D:\\Users\\inmount\\.ohos\\config\\auto_debug_EasyPhotoSync_com.lianyi.easyphotosync_80086000149444769.cer",
+          "storePassword": "0000001AA600C6815542C0FB84B7B973125CE9DA90F57A3ED5B8318006285C2E0806DA739E6C57262266",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A413EB57CE4256836AA4103FAFE34DEC8BCA61B883214D884D5BCDDC48CDE06DF2175267D11D3",
+          "profile": "D:\\Users\\inmount\\.ohos\\config\\auto_debug_EasyPhotoSync_com.lianyi.easyphotosync_80086000149444769.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "D:\\Users\\inmount\\.ohos\\config\\auto_debug_EasyPhotoSync_com.lianyi.easyphotosync_80086000149444769.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [
